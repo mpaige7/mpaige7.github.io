@@ -1,9 +1,4 @@
-/* static landing page option
-.landing-page{
-    position: position;
-    text-align: center;
-}
-*/
+
 .parallax {
     /* The image used */
     background-image: url("images/AdobeStock_270151517.jpeg");
@@ -78,10 +73,6 @@
     text-align: center;
 }
 
-.about-us{
-    
-}
-
 
 .footer{
     background-color: rgb(0, 0, 0);
@@ -142,13 +133,66 @@
     padding-bottom: 100px;
 }
 
-@media (max-width: 600px){
-    p{
-        font-size: 7000000px;
-    }
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    height: 120vh;
+    padding: 0 200px 100px 200px;
+   
 
 }
 
+.AB{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(165, 138, 70);
+    color: white;
+    line-height: 2;
+}
+
+.BARBER{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("images/AdobeStock_138932814.jpeg");
+    background-size: cover;
+}
+
+.P1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    background-image: url("images/AdobeStock_2.jpg");
+    background-size: cover;
+}
+.P1:hover{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.P2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: white;
+    background-image: url("images/AdobeStock_42.jpg");
+    background-size: cover;
+}
+.P2:hover{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.NOW{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color: black;
+    color: white;
+}
+
+.week{
+    font-size: 1em;
+}
 
 h1{
     
@@ -173,5 +217,5 @@ p{
     font-weight: 400;
     font-family: 'DM Serif Display', serif;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
+    font-size: 1em;
 }
