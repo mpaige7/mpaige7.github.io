@@ -22,181 +22,126 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
 </head>
 
-<body style="background-color: rgb(255, 255, 255);">
+<body class="signUpBackground" style="background-color: rgb(255, 255, 255);">
   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">BENTLEY'S</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="B2.html">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">FAQ</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">BENTLEY'S</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="B2.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">FAQ</a>
+            </li>
+          </ul>
+          
+        </div>
       </div>
+    </nav>
+
+
+    
+    <div class="centered-txt" style="padding-top: 300px;">
+        <h1 style="font-size: 7em; color: white;">TAKE A SEAT</h1>   
     </div>
-  </nav>
   
-
-    <div class="parallax">   
-        <div class="centered"><h1 style="font-size:15vw">BENTLEY'S</h1></div>
-        <div class="centeredd"><button type="button" class="btn btn-outline-light btn-lg">book a visit</button></div>       
-    </div>
-
-    <div class="padding">
-        <h2 class="centered-txt" style="padding-bottom: 100px;">LOOK YOUR BEST WITH US</h2>
- 
-        
-
-    <div class="grid-container">
-
-      <section class="AB centered-txt" style="padding: 150px 150px">
-        <h3>ABOUT US</h3>
-        <br>
-        Our goal here at BENTLEYS is to provide you the best grooming experience you've ever had. Our talanted barbers are ready to provide you with the best cuts in the business. 
-        When you look your best, you do your best and we're ready to do our part in the equation.
-        We first opened up in XXXX and ever since wev'e been providing our customers with the best experience possible. Lead by John Doe, our culture of professionalism was set and we've been providing our customers with a premiun experience ever since.
-      </section>
     
-      <section class="P1 centered-txt" style="padding-top: 250px">
-        <a href="B2.html" style="text-decoration: none;">
-        <h3 style="color: white;">PRODUCTS</h3>
-        </a>
-      </section>
+    <div class="divForm" style="text-align: center; padding:20px 0 450px; margin-bottom: 300px;">
+        <form class="signForm" style="padding-top: 50px;">
     
-      <section class="P2 centered-txt" style="padding-top: 250px">
-        <a href="" style="text-decoration: none;">
-          <h3 style="color: white;">OUR WORK</h3>
-          </a>
-      </section>
-    
-      <section class="BARBER">
-        
-        
-      </section>
-    
-      <section class="NOW centered-txt" style="padding: 400px 50px">
-        <h3>GET YOUR NEXT CUT WITH US</h3>
-      </section>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" style="margin-bottom: 10px;"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <h4 style="margin-top: 49px;"> Choose Your Barber</h4>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="b1">Barber x</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="b2">Barber y</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="b3">Barber z</label>
+            <br>
+            
+            <input type="button" class="btn btn-outline-light btn-md" value="reserve" style="margin: 40px 0 30px;">
+        </form>
     
     </div>
 
-    
-    <div class="prices container-fluid space" style="width: 80%;">
-        
-        <h2 class="centered-txt padding">SERVICES</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-1 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h5 class="card-title centered-txt space">HAIRCUT</h5>
-                  <p class="card-text card-price centered-txt">$25</p>
-                  <p class="card-text centered-txt">Whatever cut you want, minus the beard.</p>
-                </div>
-                
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h5 class="card-title centered-txt space">THE FULL</h5>
-                  <p class="card-text card-price centered-txt">$40</p>
-                  <p class="card-text centered-txt">The complete look, top to bottom.</p>
-                </div>
-                
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h5 class="card-title centered-txt space">BEARD</h5>
-                  <p class="card-text card-price centered-txt">$25</p>
-                  <p class="card-text centered-txt">When all you need is beard TLC.</p>
-                </div>
-               
-              </div>
-            </div>
-          </div>
-    </div>
-      <div class="centered-txt"><button type="button" class="btn btn-outline-dark btn-lg">book a visit</button></div> 
-    </div>
 
-    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <script src="BENTLEYS.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<script src="BENTLEYS.js" charset="utf-8"></script>
 
 </body>
 
 <footer>
-  <div class="footer centered-txt" style="padding-bottom: 100px;">
-
-    <div class="container">
-      <div class="row row-cols-3">
-        
-        <div class="col"><h5 class="footer-pad">OUR STORE</h5>
-          <p>1142 Berkshire Ave, Springfield, MA</p>
-          <p>(413) 316-3173</p>
-        </div>
+    <div class="footer centered-txt" style="padding-bottom: 100px;">
+  
+      <div class="container">
+        <div class="row row-cols-3">
           
-        <div class="col"><h5 class="footer-pad">HELP</h5>
-          <p>FAQ</p>
-          <p>Privacy Policy</p>
-        </div>
-    
-        <div class="col"><h5 class="footer-pad">OPEN HOURS</h5>
-
-          <div class="row row-cols-2">
-            <div class="col">Monday-Friday</div>
-            <div class="col">9AM–5PM</div>
-            <div class="col">Saturday</div>
-            <div class="col">9AM–3PM</div>
-            <div class="col">Sunday</div>
-            <div class="col">9AM–5PM</div>
+          <div class="col"><h5 class="footer-pad">OUR STORE</h5>
+            <p>1142 Berkshire Ave, Springfield, MA</p>
+            <p>(413) 316-3173</p>
           </div>
-
+            
+          <div class="col"><h5 class="footer-pad">HELP</h5>
+            <p>FAQ</p>
+            <p>Privacy Policy</p>
+          </div>
+      
+          <div class="col"><h5 class="footer-pad">OPEN HOURS</h5>
+  
+            <div class="row row-cols-2">
+              <div class="col">Monday-Friday</div>
+              <div class="col">9AM–5PM</div>
+              <div class="col">Saturday</div>
+              <div class="col">9AM–3PM</div>
+              <div class="col">Sunday</div>
+              <div class="col">9AM–5PM</div>
+            </div>
+  
+          </div>
+  
         </div>
-
-      </div>
-
-      <div class="row row-cols-3" style="padding-top: 250px; margin: 0 30%;">
-        <a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram fa-3x" style="size: 9px; color: white;"></i></a>
-        <a href="https://twitter.com/home?lang=en" target="_blank"><i class="fab fa-twitter fa-3x" style="size: 9px; color: white;"></i></a>
-        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-3x" style="size: 9px; color: white;"></i></a>
-       
-      </div>
-
-      <div class="row row-cols-5" style="padding-top: 50px;">
-        <div class="col">legal</div>
-        <div class="col">privacy</div>
-        <div class="col">cookies</div>
-        <div class="col">about</div>
-        <div class="col">© 2021 BENTLEY'S</div>
-      </div>
-
-    
-    
-     <!--instagram, facebook, twitter icons-->
-     <!--legal, cookies, about ads, (copyrights sign)2021-->
-    </div> 
-
-  </div>
-</footer>
+  
+        <div class="row row-cols-3" style="padding-top: 250px; margin: 0 30%;">
+          <a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram fa-3x" style="size: 9px; color: white;"></i></a>
+          <a href="https://twitter.com/home?lang=en" target="_blank"><i class="fab fa-twitter fa-3x" style="size: 9px; color: white;"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-3x" style="size: 9px; color: white;"></i></a>
+         
+        </div>
+  
+        <div class="row row-cols-5" style="padding-top: 50px;">
+          <div class="col">legal</div>
+          <div class="col">privacy</div>
+          <div class="col">cookies</div>
+          <div class="col">about</div>
+          <div class="col">© 2021 BENTLEY'S</div>
+        </div>
+  
+      
+      
+       <!--instagram, facebook, twitter icons-->
+       <!--legal, cookies, about ads, (copyrights sign)2021-->
+      </div> 
+  
+    </div>
+  </footer>
 
 </html>
