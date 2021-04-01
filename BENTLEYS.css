@@ -31,6 +31,10 @@
     
   }
 
+  .signUpBackground{
+    background-image: url("images/AdobeStock_238613887.jpeg");
+  }
+
 .centered{
     position: absolute;
     top: 50%;
@@ -194,6 +198,24 @@
     font-size: 1em;
 }
 
+.signForm{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+.divForm{
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    
+    padding-bottom: 20px;
+    border: 5px solid white;
+}
+
 h1{
     
     font-family: 'DM Serif Display', serif;
@@ -206,6 +228,11 @@ h2{
     font-family: 'DM Serif Display', serif;
     font-family: 'Montserrat', sans-serif;
     color: rgb(165, 138, 70);
+}
+
+h4{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h5{
